@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: -350px;
+  margin-top: -150px;
+}
+h1 span {
+  position: absolute;
+}
+h1 span:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.66667);
+}
+h1 span:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.33333);
+}
+h1 span:nth-child(2) {
+  left: 27px;
+  top: 52px;
+}
+h1 span:nth-child(3) {
+  left: 54px;
+  top: 105px;
+}
+h1 span:nth-child(4) {
+  left: 85px;
+  top: 115px;
+}
